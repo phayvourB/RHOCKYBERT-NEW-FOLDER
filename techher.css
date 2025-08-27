@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 62, 80); 
+    border-radius: 4px;}
+.techher{
+    color: white;
+    margin-left: 5px;}
+ul{
+    display: flex; }
+li{
+    list-style-type: none;
+    padding: 10px;}
+li a{
+    text-decoration: none;
+    color: white;}
+h1{
+    color: black;}
+section{
+    background-image: url(images/african-american-business-woman-working-computer.jpg);
+    background-size: 1500px 500px;
+    background-repeat: no-repeat;
+display: grid;}
+.backtext{
+    text-align: center;
+    font-size: large;}
+.empower{
+    text-align: center;}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.container{
+    text-align: center;}
+.button{
+    height: 35px;
+    border-radius: 8px;
+    color:  rgb(164, 11, 164);
+    background-color: whitesmoke;
+    border-color: rgb(173, 98, 163);
+    cursor: pointer;
+ }
+
+ div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    grid-template-rows: auto;
+    padding: 20px;
+ }
+ .gridbox{
+    background-color: rgb(199, 190, 190);
+    padding: 15px;
+    border-radius: 8px;
+    display: block;}
+    
+.gridbox:hover{
+    transform: translateY(-8px);
+    color: rgb(173, 98, 163);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: grabbing;
+    }

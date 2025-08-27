@@ -1,0 +1,20 @@
+button{
+    background-color: blueviolet;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color:darkgray;
+    color: purple;
+    transition: 0.3ms;
+    transform: translateY(-10px);
+}
